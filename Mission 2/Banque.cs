@@ -30,5 +30,10 @@ namespace Mission_2
         }
 
 
+        public Compte RendCompte(int numeroCPT)
+        {
+            return this.mesComptes.Find(cpt => cpt.Numero.ToString().Contains(numeroCPT.ToString()));
+        }
+
     }
 }
