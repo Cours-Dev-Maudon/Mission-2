@@ -26,6 +26,8 @@ namespace Mission_2
             {
                 Console.WriteLine(cpt.ToString());
             }
+
+            Console.WriteLine("Fin");
         }
     }
 }
