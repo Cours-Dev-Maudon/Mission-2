@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Mission_2
 {
-    class Banque
+    public class Banque
     {
         private List<Compte> mesComptes;
         public Banque()

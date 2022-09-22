@@ -2,7 +2,7 @@
 
 namespace Mission_2
 {
-    class Program
+   public class Program
     {
         static void Main()
         {

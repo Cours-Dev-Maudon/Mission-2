@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Mission_2
 {
-    class Compte
+   public class Compte
     {
         private int numero;
         public string nom;
@@ -48,13 +48,13 @@ namespace Mission_2
             get { return this.decouvert; }
             set { this.decouvert = value; }
         }
-        public bool Crediter(int somme)
+        public bool Crediter(double somme)
         {
             this.solde += somme;
             return true;
         }
 
-        public bool Debiter(int somme)
+        public bool Debiter(double somme)
         {
             bool debited = false;
 
@@ -66,7 +66,7 @@ namespace Mission_2
             return debited;
         }
 
-        public bool Transferer(int somme, Compte cpt)
+        public bool Transferer(double somme, Compte cpt)
         {
 
             bool transfered = false;
